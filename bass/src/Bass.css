@@ -1,0 +1,57 @@
+#bass-neck {
+    width: 100%;
+    pointer-events: none;
+}
+
+#main {
+    position: relative;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.note {
+    background: red;
+    position: absolute;
+    display: grid;
+    grid-template-rows: 100%;
+    text-align: center;
+    font-size: 0.9vw;
+}
+
+.note-1 {
+    width: 2.5%;
+    height: 13%;
+}
+
+.note-2 {
+    width: 6.5%;
+    height: 13%;
+}
+
+.note-3 {
+    width: 6%;
+    height: 13%;
+}
+
+.note-4 {
+    width: 5.7%;
+    height: 13%;
+}
+
+.note-5 {
+    width: 5.5%;
+    height: 13%;
+}
+
+.note-6 {
+    width: 5.2%;
+    height: 14%;
+}
+
+.note-7 {
+    width: 5%;
+    height: 15%;
+}
