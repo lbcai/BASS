@@ -3,7 +3,9 @@ import Bass from './Bass.js';
 function App() {
   return (
     <div id='main-container'>
-      <Bass />
+      <div id='field'>
+        <Bass />
+      </div>
     </div>
 
   );

@@ -10,3 +10,7 @@ html, body {
     width: 80vw;
     min-height: 100vh;
 }
+
+#field {
+    vertical-align: middle;
+}
